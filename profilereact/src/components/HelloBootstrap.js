@@ -1,0 +1,318 @@
+import React from "react";
+import logo from "./img1/images/background-01.png";
+import logo1 from "./img1/images/Capture.PNG";
+import logo2 from "./img1/images/dayplanner.PNG";
+import logo3 from "./img1/images/password.PNG";
+import logo4 from "./img1/images/profile2.gif";
+import logo5 from "./img1/images/profile1.png";
+import logo6 from "./img1/images/profile2.PNG";
+import "./img1/style.css";
+
+
+// import friends from "./friends.json";
+
+function HelloBootstrap() {
+  return (
+    
+      {/* <nav classNameName="navbar navbar-dark bg-dark">
+        <a classNameName="navbar-brand" href="#">
+        FFVII Employees
+        </a>
+        <form classNameName="form-inline" >
+          <input 
+          classNameName="form-control mr-sm-2" 
+          type="search" 
+          id="myInput"
+          placeholder="Search" 
+          aria-label="Search" />
+          <button classNameName="btn btn-outline-success my-2 my-sm-0" 
+          type = {"FilteredList"} >Search
+        </button>
+        </form>
+        </nav>
+        <div classNameName="space"></div>
+        <table className="table table-hover table-dark">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Image</th>
+            <th scope="col">Name</th>
+            <th scope="col">Phone</th>
+            <th scope="col">Email</th>
+            <th scope="col">DOB</th>
+          </tr>
+        </thead>
+        <thead>
+          <tr>
+          <th scope="row">1</th>
+          <td>
+            <img src={logo} 
+            width="190" 
+            height="150">
+            </img>
+          </td>
+            <td>Cloud</td>
+            <td>123-456-7890</td>
+            <td>cloud@example.com</td>
+            <td>08-11-90</td>
+          </tr>
+        </thead>
+        <thead>
+          <tr>
+          <th scope="row">2</th>
+          <td>
+            <img src={logo1}  
+            width="190" 
+            height="150">
+            </img>
+          </td>
+          <td>Aerith</td>
+            <td>098-765-4321</td>
+            <td>arieth@example.com</td>
+            <td>02-07-89</td>
+          </tr>
+        </thead>
+        <thead>
+          <tr>
+          <th scope="row">3</th>
+          <td>
+            <img src={logo2}  
+            width="190" 
+            height="150">
+            </img>
+          </td>
+          <td>Barret</td>
+            <td>246-809-7531</td>
+            <td>b.arret@example.com</td>
+            <td>10-30-64</td>
+          </tr>
+        </thead>
+        <thead>
+          <tr>
+          <th scope="row">4</th>
+          <td>
+            <img src={logo3}  
+            width="190" 
+            height="150">
+            </img>
+          </td>
+          <td>Sephiroth</td>
+            <td>135-790-8642</td>
+            <td>badguy.with.wings.seph@example.com</td>
+            <td>07-11-84</td>
+          </tr>
+        </thead>
+        <thead>
+          <tr>
+          <th scope="row">5</th>
+          <td>
+            <img src={logo4} 
+            width="190" 
+            height="150">
+            </img>
+          </td>
+          <td>Tifa</td>
+            <td>112-223-4456</td>
+            <td>Tifa.is.awesome@example.com</td>
+            <td>05-03-90</td>
+          </tr>
+        </thead>
+   </table> */}
+<div>
+   <nav className="navbar navbar-expand-lg navbar navbar-dark">
+        <a className="navbar-brand" href="#">Leticia Guerra</a>
+        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div className="navbar-nav">
+            <a className="nav-item nav-link active" href="#">Home <span className="sr-only">(current)</span></a>
+            <a className="nav-item nav-link" href="#">|</a>
+            <a className="nav-item nav-link" href="index.html#projects">Projects</a>
+            <a className="nav-item nav-link" href="#">|</a>
+            <a className="nav-item nav-link" href="index.html#contact">Contacts</a>
+            <a className="nav-item nav-link" href="#">|</a>
+            <a href="https://www.linkedin.com/in/leticia-guerra-958553121/">
+              <i className="linkedin icon"></i>
+            </a>
+            <a className="nav-item nav-link" href="#">|</a>
+            <a href="https://dribbble.com/LeticiaGuerra">
+              <i className="dribbble icon"></i>
+            </a>
+            <a className="nav-item nav-link" href="#">|</a>
+            <a href="https://github.com/DommiDan">
+              <i className="github icon"></i>
+            </a>
+            <a className="nav-item nav-link" href="#">|</a>
+            <a href="mailto:leticiadomguerra@gmail.com">
+              <i className="envelope icon"></i>
+          </a>
+          <a className="nav-item nav-link" href="#">|</a>
+          <a href="https://drive.google.com/file/d/1laGHq74Hwn4WGF-Q5gBTj43Cz-otApCM/view?usp=sharing">
+              <i className="clipboard outline icon"></i>
+          </a>
+          </div>
+        </div>
+      </nav>
+</div>
+<div>
+    <div className="space"></div>
+
+    <div className="row1">
+     <svg id="logo1" width="1053" height="164" viewBox="0 0 1053 164" fill="none" xmlns="http://www.w3.org/2000/svg">
+      
+      <path d="M106.04 123.25H40.68L28.64 156.575H8L62.18 7.58001H84.755L138.72 156.575H118.08L106.04 123.25ZM100.45 107.34L73.36 31.66L46.27 107.34H100.45Z" stroke="white" stroke-width="5" mask="url(#path-1-outside-1)"/>
+      <path d="M237.368 79.39C242.815 80.25 247.76 82.4717 252.203 86.055C256.79 89.6383 260.373 94.0817 262.953 99.385C265.676 104.688 267.038 110.35 267.038 116.37C267.038 123.967 265.103 130.847 261.233 137.01C257.363 143.03 251.701 147.832 244.248 151.415C236.938 154.855 228.266 156.575 218.233 156.575H162.333V6.72001H216.083C226.26 6.72001 234.931 8.44001 242.098 11.88C249.265 15.1767 254.64 19.6917 258.223 25.425C261.806 31.1583 263.598 37.6083 263.598 44.775C263.598 53.6617 261.161 61.0433 256.288 66.92C251.558 72.6533 245.251 76.81 237.368 79.39ZM181.898 71.435H214.793C223.966 71.435 231.061 69.285 236.078 64.985C241.095 60.685 243.603 54.7367 243.603 47.14C243.603 39.5433 241.095 33.595 236.078 29.295C231.061 24.995 223.823 22.845 214.363 22.845H181.898V71.435ZM216.513 140.45C226.26 140.45 233.856 138.157 239.303 133.57C244.75 128.983 247.473 122.605 247.473 114.435C247.473 106.122 244.606 99.6 238.873 94.87C233.14 89.9967 225.471 87.56 215.868 87.56H181.898V140.45H216.513Z" stroke="white" stroke-width="5" mask="url(#path-1-outside-1)"/>
+      <path d="M362.129 158.08C348.225 158.08 335.54 154.855 324.074 148.405C312.607 141.812 303.505 132.71 296.769 121.1C290.175 109.347 286.879 96.16 286.879 81.54C286.879 66.92 290.175 53.805 296.769 42.195C303.505 30.4417 312.607 21.34 324.074 14.89C335.54 8.29667 348.225 5 362.129 5C376.175 5 388.932 8.29667 400.399 14.89C411.865 21.34 420.895 30.37 427.489 41.98C434.082 53.59 437.379 66.7767 437.379 81.54C437.379 96.3033 434.082 109.49 427.489 121.1C420.895 132.71 411.865 141.812 400.399 148.405C388.932 154.855 376.175 158.08 362.129 158.08ZM362.129 141.095C372.592 141.095 381.98 138.658 390.294 133.785C398.75 128.912 405.344 121.96 410.074 112.93C414.947 103.9 417.384 93.4367 417.384 81.54C417.384 69.5 414.947 59.0367 410.074 50.15C405.344 41.12 398.822 34.1683 390.509 29.295C382.195 24.4217 372.735 21.985 362.129 21.985C351.522 21.985 342.062 24.4217 333.749 29.295C325.435 34.1683 318.842 41.12 313.969 50.15C309.239 59.0367 306.874 69.5 306.874 81.54C306.874 93.4367 309.239 103.9 313.969 112.93C318.842 121.96 325.435 128.912 333.749 133.785C342.205 138.658 351.665 141.095 362.129 141.095Z" stroke="white" stroke-width="5" mask="url(#path-1-outside-1)"/>
+      <path d="M482.342 6.72001V101.535C482.342 114.865 485.567 124.755 492.017 131.205C498.61 137.655 507.712 140.88 519.322 140.88C530.789 140.88 539.747 137.655 546.197 131.205C552.79 124.755 556.087 114.865 556.087 101.535V6.72001H575.652V101.32C575.652 113.79 573.144 124.325 568.127 132.925C563.11 141.382 556.302 147.688 547.702 151.845C539.245 156.002 529.714 158.08 519.107 158.08C508.5 158.08 498.897 156.002 490.297 151.845C481.84 147.688 475.104 141.382 470.087 132.925C465.214 124.325 462.777 113.79 462.777 101.32V6.72001H482.342Z" stroke="white" stroke-width="5" mask="url(#path-1-outside-1)"/>
+      <path d="M700.525 6.72001V22.63H659.675V156.575H640.11V22.63H599.045V6.72001H700.525Z" stroke="white" stroke-width="5" mask="url(#path-1-outside-1)"/>
+      <path d="M933.933 7.79501V156.575H914.368V45.635L864.918 156.575H851.158L801.493 45.42V156.575H781.928V7.79501H802.998L858.038 130.775L913.078 7.79501H933.933Z" stroke="white" stroke-width="5" mask="url(#path-1-outside-1)"/>
+      <path d="M986.678 22.63V72.725H1041.29V88.85H986.678V140.45H1047.74V156.575H967.113V6.50501H1047.74V22.63H986.678Z" stroke="white" stroke-width="5" mask="url(#path-1-outside-1)"/>
+      </svg>
+       
+        <div>
+        <img className="avatar" src="./Assets/images/profile2.gif" alt="profile.gif" width="300" height="300">
+      
+    </div>
+
+    <div id="projects" className="row2">
+        <svg id="logo" width="701" height="116" viewBox="0 0 701 116" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+<path d="M73.192 37.008C73.192 45.36 70.312 52.32 64.552 57.888C58.888 63.36 50.2 66.096 38.488 66.096H19.192V108H6.08801V7.632H38.488C49.816 7.632 58.408 10.368 64.264 15.84C70.216 21.312 73.192 28.368 73.192 37.008ZM38.488 55.296C45.784 55.296 51.16 53.712 54.616 50.544C58.072 47.376 59.8 42.864 59.8 37.008C59.8 24.624 52.696 18.432 38.488 18.432H19.192V55.296H38.488Z" stroke="white" stroke-width="6" mask="url(#path-1-outside-1)"/>
+<path d="M142.327 108L118.423 66.96H102.583V108H89.4786V7.632H121.879C129.463 7.632 135.847 8.928 141.031 11.52C146.311 14.112 150.247 17.616 152.839 22.032C155.431 26.448 156.727 31.488 156.727 37.152C156.727 44.064 154.711 50.16 150.679 55.44C146.743 60.72 140.791 64.224 132.823 65.952L158.023 108H142.327ZM102.583 56.448H121.879C128.983 56.448 134.311 54.72 137.863 51.264C141.415 47.712 143.191 43.008 143.191 37.152C143.191 31.2 141.415 26.592 137.863 23.328C134.407 20.064 129.079 18.432 121.879 18.432H102.583V56.448Z" stroke="white" stroke-width="6" mask="url(#path-1-outside-1)"/>
+<path d="M222.592 109.008C213.28 109.008 204.784 106.848 197.104 102.528C189.424 98.112 183.328 92.016 178.816 84.24C174.4 76.368 172.192 67.536 172.192 57.744C172.192 47.952 174.4 39.168 178.816 31.392C183.328 23.52 189.424 17.424 197.104 13.104C204.784 8.688 213.28 6.48 222.592 6.48C232 6.48 240.544 8.688 248.224 13.104C255.904 17.424 261.952 23.472 266.368 31.248C270.784 39.024 272.992 47.856 272.992 57.744C272.992 67.632 270.784 76.464 266.368 84.24C261.952 92.016 255.904 98.112 248.224 102.528C240.544 106.848 232 109.008 222.592 109.008ZM222.592 97.632C229.6 97.632 235.888 96 241.456 92.736C247.12 89.472 251.536 84.816 254.704 78.768C257.968 72.72 259.6 65.712 259.6 57.744C259.6 49.68 257.968 42.672 254.704 36.72C251.536 30.672 247.168 26.016 241.6 22.752C236.032 19.488 229.696 17.856 222.592 17.856C215.488 17.856 209.152 19.488 203.584 22.752C198.016 26.016 193.6 30.672 190.336 36.72C187.168 42.672 185.584 49.68 185.584 57.744C185.584 65.712 187.168 72.72 190.336 78.768C193.6 84.816 198.016 89.472 203.584 92.736C209.248 96 215.584 97.632 222.592 97.632Z" stroke="white" stroke-width="6" mask="url(#path-1-outside-1)"/>
+<path d="M340.835 7.632V81.792C340.835 90.048 338.291 96.672 333.203 101.664C328.115 106.56 321.395 109.008 313.043 109.008C304.595 109.008 297.827 106.512 292.739 101.52C287.651 96.432 285.107 89.52 285.107 80.784H298.211C298.307 85.68 299.555 89.664 301.955 92.736C304.451 95.808 308.147 97.344 313.043 97.344C317.939 97.344 321.587 95.904 323.987 93.024C326.387 90.048 327.587 86.304 327.587 81.792V7.632H340.835Z" stroke="white" stroke-width="6" mask="url(#path-1-outside-1)"/>
+<path d="M379.755 18.288V51.84H416.331V62.64H379.755V97.2H420.651V108H366.651V7.488H420.651V18.288H379.755Z" stroke="white" stroke-width="6" mask="url(#path-1-outside-1)"/>
+<path d="M435.583 57.744C435.583 47.952 437.791 39.168 442.207 31.392C446.623 23.52 452.623 17.376 460.207 12.96C467.887 8.544 476.383 6.336 485.695 6.336C496.639 6.336 506.191 8.976 514.351 14.256C522.511 19.536 528.463 27.024 532.207 36.72H516.511C513.727 30.672 509.695 26.016 504.415 22.752C499.231 19.488 492.991 17.856 485.695 17.856C478.687 17.856 472.399 19.488 466.831 22.752C461.263 26.016 456.895 30.672 453.727 36.72C450.559 42.672 448.975 49.68 448.975 57.744C448.975 65.712 450.559 72.72 453.727 78.768C456.895 84.72 461.263 89.328 466.831 92.592C472.399 95.856 478.687 97.488 485.695 97.488C492.991 97.488 499.231 95.904 504.415 92.736C509.695 89.472 513.727 84.816 516.511 78.768H532.207C528.463 88.368 522.511 95.808 514.351 101.088C506.191 106.272 496.639 108.864 485.695 108.864C476.383 108.864 467.887 106.704 460.207 102.384C452.623 97.968 446.623 91.872 442.207 84.096C437.791 76.32 435.583 67.536 435.583 57.744Z" stroke="white" stroke-width="6" mask="url(#path-1-outside-1)"/>
+<path d="M613.489 7.632V18.288H586.129V108H573.025V18.288H545.521V7.632H613.489Z" stroke="white" stroke-width="6" mask="url(#path-1-outside-1)"/>
+<path d="M661.443 109.008C654.819 109.008 648.867 107.856 643.587 105.552C638.403 103.152 634.323 99.888 631.347 95.76C628.371 91.536 626.835 86.688 626.739 81.216H640.707C641.187 85.92 643.107 89.904 646.467 93.168C649.923 96.336 654.915 97.92 661.443 97.92C667.683 97.92 672.579 96.384 676.131 93.312C679.779 90.144 681.603 86.112 681.603 81.216C681.603 77.376 680.547 74.256 678.435 71.856C676.323 69.456 673.683 67.632 670.515 66.384C667.347 65.136 663.075 63.792 657.699 62.352C651.075 60.624 645.747 58.896 641.715 57.168C637.779 55.44 634.371 52.752 631.491 49.104C628.707 45.36 627.315 40.368 627.315 34.128C627.315 28.656 628.707 23.808 631.491 19.584C634.275 15.36 638.163 12.096 643.155 9.792C648.243 7.488 654.051 6.336 660.579 6.336C669.987 6.336 677.667 8.688 683.619 13.392C689.667 18.096 693.075 24.336 693.843 32.112H679.443C678.963 28.272 676.947 24.912 673.395 22.032C669.843 19.056 665.139 17.568 659.283 17.568C653.811 17.568 649.347 19.008 645.891 21.888C642.435 24.672 640.707 28.608 640.707 33.696C640.707 37.344 641.715 40.32 643.731 42.624C645.843 44.928 648.387 46.704 651.363 47.952C654.435 49.104 658.707 50.448 664.179 51.984C670.803 53.808 676.131 55.632 680.163 57.456C684.195 59.184 687.651 61.92 690.531 65.664C693.411 69.312 694.851 74.304 694.851 80.64C694.851 85.536 693.555 90.144 690.963 94.464C688.371 98.784 684.531 102.288 679.443 104.976C674.355 107.664 668.355 109.008 661.443 109.008Z" stroke="white" stroke-width="6" mask="url(#path-1-outside-1)"/>
+</svg>
+<div id="divide" className="ui three stackable cards">
+  <div className="card">
+    <div className="image">
+      <img className="size" src="./Assets/images/Capture.PNG">
+    </div>
+    <div className="content">
+      <a className="header">Eat A Burger</a>
+      <div className="description">
+        This site lets the user put in a burger name and then chooses to devour the burger they just added!
+      </div>
+      <span></span>
+      <a className="ui inverted orange button" href="https://github.com/DommiDan/burgerapp" role="button"> Eat A Burger:
+        Repository</a>
+      <a className="ui inverted orange button" href="https://evening-sands-73651.herokuapp.com/index" role="button"> Eat A
+        Burger</a>
+    </div>
+  </div>
+<div>
+  <div className="card">
+    <div className="image">
+      <img className="size" src={logo1}>
+    </div>
+ </div>
+    <div className="content">
+      <a className="header">Fright Finder</a>
+      <div className="description">
+        Fright Finder is an application that helps Find spooky places anywhere in the US and has 9000+ database
+        results!
+        </div>
+      <span></span>
+      <a className="ui inverted orange button" href="#" role="button"> Fright Finder</a>
+      <a className="ui inverted orange button" href="https://github.com/Colin-Cunningham/FrightFinder" role="button">
+        Fright Finder: Repository</a>
+      </div>
+    </div>
+  </div>
+  <div className="card">
+    <div className="image">
+      <img className="size" src={logo}>
+     </div>
+  </div>
+    <div className="content">
+      <a className="header">Day Planner</a>
+      <div className="description">
+       Day Planner is a simple application that helps the user schedule their time.
+       </div>
+      <span></span>
+      <a className="ui inverted orange button" href="https://dommidan.github.io/planner/" role="button"> Day Planner</a>
+      <a className="ui inverted orange button" href="https://github.com/DommiDan/planner" role="button">
+        Day Planner: Repository</a>
+    </div>
+  </div>
+
+  <div className="card">
+    <div className="image">
+      <img className="size" src={logo4}>
+    </div>
+    </div>
+    <div className="content">
+      <a className="header">Password Generator</a>
+      <div className="description">
+        This app helps the user generate a password with certain specifications a user wants.
+       </div>
+      <span></span>
+      <a className="ui inverted orange button" href="https://dommidan.github.io/password/" role="button"> Password Generator</a>
+      <a className="ui inverted orange button" href="https://github.com/DommiDan/password" role="button">
+        Password Generator: Repository</a>
+    </div>
+  </div>
+
+  <div className="card">
+    <div className="image">
+      <img className="size" src="./Assets/images/mysql.PNG">
+    </div>
+    <div className="content">
+      <a className="header">Mysql Job App</a>
+      <div className="description">
+       This app helps you locate and find jobs though MySql databases.
+       </div>
+      <span></span>
+      <a className="ui inverted orange button" href="https://github.com/DommiDan/mysqljobapp" role="button">
+        MySql Job App: Repository</a>
+    </div>
+  </div>
+  <div className="card">
+    <div className="image">
+      <img className="size" src="./Assets/images/project1.png">
+    </div>
+    <div className="content">
+      <a className="header">Traffic Jam: The Weather App</a>
+      <div className="description">
+        This is a group project that gives the user directions to the pennovation center and
+        also works as a weather app with built in spotify playlist.
+      </div>
+      <span></span>
+      <a className="ui inverted orange button" href="https://brianp22.github.io/Group-6-Project/index.html" role="button">
+        Traffic Jam</a>
+      <a className="ui inverted orange button" href="https://github.com/brianp22/Group-6-Project" role="button"> Traffic
+        Jam: Repository</a>
+    </div>
+  </div>
+</div>
+</div>
+  <div className="padding">
+    <div className="row3">
+        <svg id="logo3" width="1067" height="154" viewBox="0 0 1067 154" fill="none" xmlns="http://www.w3.org/2000/svg">
+  
+          <path d="M5.59998 77.2C5.59998 63.6 8.66664 51.4 14.8 40.6C20.9333 29.6667 29.2666 21.1333 39.8 15C50.4666 8.86665 62.2666 5.79999 75.2 5.79999C90.4 5.79999 103.667 9.46665 115 16.8C126.333 24.1333 134.6 34.5333 139.8 48H118C114.133 39.6 108.533 33.1333 101.2 28.6C94 24.0667 85.3333 21.8 75.2 21.8C65.4666 21.8 56.7333 24.0667 49 28.6C41.2666 33.1333 35.2 39.6 30.8 48C26.4 56.2667 24.2 66 24.2 77.2C24.2 88.2667 26.4 98 30.8 106.4C35.2 114.667 41.2666 121.067 49 125.6C56.7333 130.133 65.4666 132.4 75.2 132.4C85.3333 132.4 94 130.2 101.2 125.8C108.533 121.267 114.133 114.8 118 106.4H139.8C134.6 119.733 126.333 130.067 115 137.4C103.667 144.6 90.4 148.2 75.2 148.2C62.2666 148.2 50.4666 145.2 39.8 139.2C29.2666 133.067 20.9333 124.6 14.8 113.8C8.66664 103 5.59998 90.8 5.59998 77.2Z" stroke="white" stroke-width="5" mask="url(#path-1-outside-1)"/>
+          <path d="M230.092 148.4C217.159 148.4 205.359 145.4 194.692 139.4C184.025 133.267 175.559 124.8 169.292 114C163.159 103.067 160.092 90.8 160.092 77.2C160.092 63.6 163.159 51.4 169.292 40.6C175.559 29.6667 184.025 21.2 194.692 15.2C205.359 9.06665 217.159 5.99998 230.092 5.99998C243.159 5.99998 255.026 9.06665 265.692 15.2C276.359 21.2 284.759 29.6 290.892 40.4C297.025 51.2 300.092 63.4667 300.092 77.2C300.092 90.9333 297.025 103.2 290.892 114C284.759 124.8 276.359 133.267 265.692 139.4C255.026 145.4 243.159 148.4 230.092 148.4ZM230.092 132.6C239.825 132.6 248.559 130.333 256.292 125.8C264.159 121.267 270.292 114.8 274.692 106.4C279.225 98 281.492 88.2667 281.492 77.2C281.492 66 279.225 56.2667 274.692 48C270.292 39.6 264.225 33.1333 256.492 28.6C248.759 24.0667 239.959 21.8 230.092 21.8C220.225 21.8 211.425 24.0667 203.692 28.6C195.959 33.1333 189.825 39.6 185.292 48C180.892 56.2667 178.692 66 178.692 77.2C178.692 88.2667 180.892 98 185.292 106.4C189.825 114.8 195.959 121.267 203.692 125.8C211.559 130.333 220.359 132.6 230.092 132.6Z" stroke="white" stroke-width="5" mask="url(#path-1-outside-1)"/>
+          <path d="M433.719 147H415.519L342.319 36V147H324.119V7.39999H342.319L415.519 118.2V7.39999H433.719V147Z" stroke="white" stroke-width="5" mask="url(#path-1-outside-1)"/>
+          <path d="M550.544 7.59998V22.4H512.544V147H494.344V22.4H456.144V7.59998H550.544Z" stroke="white" stroke-width="5" mask="url(#path-1-outside-1)"/>
+          <path d="M655.347 116H594.547L583.347 147H564.147L614.547 8.39999H635.547L685.747 147H666.547L655.347 116ZM650.147 101.2L624.947 30.8L599.747 101.2H650.147Z" stroke="white" stroke-width="5" mask="url(#path-1-outside-1)"/>
+          <path d="M700.912 77.2C700.912 63.6 703.979 51.4 710.112 40.6C716.246 29.6667 724.579 21.1333 735.112 15C745.779 8.86665 757.579 5.79999 770.513 5.79999C785.713 5.79999 798.979 9.46665 810.312 16.8C821.646 24.1333 829.912 34.5333 835.112 48H813.312C809.446 39.6 803.846 33.1333 796.513 28.6C789.313 24.0667 780.646 21.8 770.513 21.8C760.779 21.8 752.046 24.0667 744.312 28.6C736.579 33.1333 730.512 39.6 726.112 48C721.712 56.2667 719.513 66 719.513 77.2C719.513 88.2667 721.712 98 726.112 106.4C730.512 114.667 736.579 121.067 744.312 125.6C752.046 130.133 760.779 132.4 770.513 132.4C780.646 132.4 789.313 130.2 796.513 125.8C803.846 121.267 809.446 114.8 813.312 106.4H835.112C829.912 119.733 821.646 130.067 810.312 137.4C798.979 144.6 785.713 148.2 770.513 148.2C757.579 148.2 745.779 145.2 735.112 139.2C724.579 133.067 716.246 124.6 710.112 113.8C703.979 103 700.912 90.8 700.912 77.2Z" stroke="white" stroke-width="5" mask="url(#path-1-outside-1)"/>
+          <path d="M948.005 7.59998V22.4H910.005V147H891.805V22.4H853.605V7.59998H948.005Z" stroke="white" stroke-width="5" mask="url(#path-1-outside-1)"/>
+          <path d="M1014.61 148.4C1005.41 148.4 997.141 146.8 989.808 143.6C982.608 140.267 976.941 135.733 972.808 130C968.674 124.133 966.541 117.4 966.408 109.8H985.808C986.474 116.333 989.141 121.867 993.808 126.4C998.608 130.8 1005.54 133 1014.61 133C1023.27 133 1030.07 130.867 1035.01 126.6C1040.07 122.2 1042.61 116.6 1042.61 109.8C1042.61 104.467 1041.14 100.133 1038.21 96.8C1035.27 93.4667 1031.61 90.9333 1027.21 89.2C1022.81 87.4667 1016.87 85.6 1009.41 83.6C1000.21 81.2 992.808 78.8 987.208 76.4C981.741 74 977.008 70.2667 973.008 65.2C969.141 60 967.208 53.0667 967.208 44.4C967.208 36.8 969.141 30.0667 973.008 24.2C976.874 18.3333 982.274 13.8 989.208 10.6C996.274 7.39998 1004.34 5.79999 1013.41 5.79999C1026.47 5.79999 1037.14 9.06665 1045.41 15.6C1053.81 22.1333 1058.54 30.8 1059.61 41.6H1039.61C1038.94 36.2667 1036.14 31.6 1031.21 27.6C1026.27 23.4667 1019.74 21.4 1011.61 21.4C1004.01 21.4 997.808 23.4 993.008 27.4C988.208 31.2667 985.808 36.7333 985.808 43.8C985.808 48.8667 987.208 53 990.008 56.2C992.941 59.4 996.474 61.8667 1000.61 63.6C1004.87 65.2 1010.81 67.0667 1018.41 69.2C1027.61 71.7333 1035.01 74.2667 1040.61 76.8C1046.21 79.2 1051.01 83 1055.01 88.2C1059.01 93.2667 1061.01 100.2 1061.01 109C1061.01 115.8 1059.21 122.2 1055.61 128.2C1052.01 134.2 1046.67 139.067 1039.61 142.8C1032.54 146.533 1024.21 148.4 1014.61 148.4Z" stroke="white" stroke-width="5" mask="url(#path-1-outside-1)"/>
+          </svg>
+          
+        <div id="contact" className="ui inverted segment">
+          <a className="btn btn-primary" href="https://github.com/DommiDan" role="button"> GitHub </a>
+          <a className="btn btn-primary" href="#" role="button"> Email: g.leticia@rocketmail.com</a>
+          <a className="btn btn-primary" href="https://drive.google.com/file/d/1laGHq74Hwn4WGF-Q5gBTj43Cz-otApCM/view?usp=sharing" role="button"> Resume</a>
+        </div> 
+   </div>
+  );
+}
+
+
+
+export default HelloBootstrap;
